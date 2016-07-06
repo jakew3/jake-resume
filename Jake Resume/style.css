@@ -1,0 +1,48 @@
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Cairo', sans-serif;
+}
+
+p {
+   font-family: 'Open Sans', sans-serif; 
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+h4 {
+    color: #545454;
+    margin-top: -20px;
+}
+
+/* ========== MAIN CONTENT ========== */
+
+.container {
+	max-width:1000px;
+    margin: 0 auto;
+}
+
+.top-content {
+    margin-top: 50px;
+    text-align:center;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    h2 {
+        text-align: center;
+    }
+
+   
